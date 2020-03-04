@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-# Nashia Holloway ===> Working on Python3 compatability and integration with my tool Cachemap
+# Nashia Holloway ===> added codecs.decode for PALETTE for python2 and 3 compatability
 
 import argparse, os, os.path, sys, codecs
 from struct import pack, unpack
